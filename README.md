@@ -1,2 +1,2 @@
 # tianxin-bot
-适配于 QQ、NTQQ，qq机器人
+适配于 QQ、qq机器人
