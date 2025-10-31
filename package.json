@@ -1,0 +1,26 @@
+{
+  "name": "tianxin-bot",
+  "version": "1.0.0",
+  "description": "QQ机器人，兼容云崽/喵崽插件",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",          // WebSocket客户端，用于连接go-cqhttp
+    "express": "^4.18.2",     // HTTP服务器，用于处理HTTP回调
+    "js-yaml": "^4.1.0",      // YAML解析，处理配置文件
+    "glob": "^10.3.10",       // 文件匹配，用于加载插件
+    "chokidar": "^3.5.3",     // 文件监听，用于热重载插件
+    "winston": "^3.11.0",     // 日志系统
+    "lodash": "^4.17.21",     // 工具函数库
+    "dayjs": "^1.11.10",      // 日期处理
+    "redis": "^4.6.7",        // Redis客户端，兼容云崽的缓存
+    "sequelize": "^6.32.1",   // ORM框架，处理数据库
+    "sqlite3": "^5.1.6"       // SQLite数据库
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
